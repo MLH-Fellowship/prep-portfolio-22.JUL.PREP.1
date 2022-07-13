@@ -1,15 +1,140 @@
 - name: Will
   img: logo.jpg
   location: London, UK
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
 
 - name: Amanda
   img: amanda.jpg
   location: New York City, USA
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+  
 
 - name: Aaron
   img: aaron.jpg
   location: London, UK
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
 
 - name: Swift
   img: swift.jpg
   location: New York City, USA
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+- name: Will
+  img: logo.jpg
+  location: London, UK
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+
+- name: Amanda
+  img: amanda.jpg
+  location: New York City, USA
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+  
+
+- name: Aaron
+  img: aaron.jpg
+  location: London, UK
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+
+- name: Swift
+  img: swift.jpg
+  location: New York City, USA
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+  
+  - name: Will
+  img: logo.jpg
+  location: London, UK
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+
+- name: Amanda
+  img: amanda.jpg
+  location: New York City, USA
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+  
+
+- name: Will
+  img: logo.jpg
+  location: London, UK
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+
+- name: Amanda
+  img: amanda.jpg
+  location: New York City, USA
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+  
+
+- name: Aaron
+  img: aaron.jpg
+  location: London, UK
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+
+- name: Swift
+  img: swift.jpg
+  location: New York City, USA
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+  
+  - name: Will
+  img: logo.jpg
+  location: London, UK
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+
+- name: Amanda
+  img: amanda.jpg
+  location: New York City, USA
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+  
+
+- name: Aaron
+  img: aaron.jpg
+  location: London, UK
+  linkedin: " "
+  github: " "
+  twitter: " "
+  resume: " "
+

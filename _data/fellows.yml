@@ -1,15 +1,43 @@
-- name: Will
-  img: logo.jpg
-  location: London, UK
+- name: Akshita Gupta
+  img: akshita-gupta.png
+  location: Uttar Pradesh, India
 
-- name: Amanda
-  img: amanda.jpg
-  location: New York City, USA
+- name: Merouane Zouaid
+  img: Merouane-Zouaid.jpeg
+  location: Agadir, Morocco
 
-- name: Aaron
-  img: aaron.jpg
-  location: London, UK
+- name: Soumya Satheesan
+  img: Soumya-Satheesan.jpg
+  location: Victoria, Seychelles
 
-- name: Swift
-  img: swift.jpg
-  location: New York City, USA
+- name: Ain Fatima
+  img: Ain-Fatima.jpeg
+  location: Ranchi, India
+
+- name: Rohit Patil
+  img: Rohit-Patil.jpeg
+  location: India
+
+- name: Rakesh Potnuru
+  img: Rakesh.jpg
+  location: Andhra Pradesh, India 
+
+- name: Ish Kapoor
+  img: Ish-Kapoor.jpg
+  location: Delhi, India
+
+- name: Mohd Arshad
+  img: Mohd-Arshad.jpeg
+  location: New Delhi, India
+
+- name: kuwar kapur
+  img: kuwar-kapur.jpg
+  location: Delhi,India
+
+- name: Riya Singh
+  img: Riya-Singh.jpg
+  location: Varanasi, India
+
+- name: Karnik Kanojia
+  img: Karnik-Kanojia.png
+  location: Uttar Pradesh, India

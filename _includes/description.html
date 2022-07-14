@@ -1,11 +1,17 @@
 <h2>Meet the Pod</h2>
 <div class="card-container">
     {% for item in site.data.fellows %}
-    <div class="card">
-        <div class="info">
-            <p class="title"> {{ item.name }}</p>
-            <p class="location"> {{ item.location }}</p>
+    {% if item.page-name %}
+    <a href="/fellows/{{ item.page-name }}">
+        {% else %}
+        <a>
+            {% endif %}
+        <div class="card">
+            <div class="info">
+                <p class="title"> {{ item.name }}</p>
+                <p class="location"> {{ item.location }}</p>
+            </div>
         </div>
-    </div>
+    </a>
     {% endfor %}
 </div>

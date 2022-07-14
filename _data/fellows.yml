@@ -20,8 +20,8 @@
 
 - name: Rohit Patil
   img: Rohit-Patil.jpeg
+  location: Mumbai, India
   page-name: rohit
-  location: Mumbai,India
 
 - name: Rakesh Potnuru
   img: Rakesh.jpg
@@ -52,3 +52,11 @@
   img: Karnik-Kanojia.png
   location: Uttar Pradesh, India
   page-name: karnik
+
+- name: Dhroov Makwana
+  img: Dhroov-Makwana.jpg
+  location: Pune, India
+
+- name: Archit Jain
+  img: Archit-Jain.jpg
+  location: India

@@ -2,13 +2,12 @@
 
 This is a Jekyll website template designed for Prep Fellows.
 
-
 ## Make your own!
 
 1. Use the Template button.
 2. Update `_config.yml` to contain your information.
-    1. Change `url` to the URL you'll be hosting it at
-    2. Make sure it has the /
+   1. Change `url` to the URL you'll be hosting it at
+   2. Make sure it has the /
 3. Use something like Netlify or GitHub Pages to deploy (note, this only works on username.github.io, not username.github.io/repo-name)
 
 ## Add your portfolio
@@ -16,6 +15,7 @@ This is a Jekyll website template designed for Prep Fellows.
 Head to `_data` and fill out either `projects.yml`, `experience.yml` and `education.yml`.
 
 Project example.
+
 ```yaml
 - title: Online Shopping Application
   event: MLH Prep - Batch 4.5
@@ -23,6 +23,7 @@ Project example.
 ```
 
 Experience example.
+
 ```yaml
 - role: MLH Prep Fellow
   company: MLH Fellowship
@@ -31,12 +32,14 @@ Experience example.
 ```
 
 Education example.
+
 ```yaml
 - course: Prep Fellow
   institute: MLH Fellowship
   dates: Fall 2021
   logo: fellowship.svg
 ```
+
 ## Add project posts
 
 1. Make a new `.md` file inside of `projects`.
@@ -45,6 +48,7 @@ Education example.
 4. Add the `page-name` field to your `projects.yml` (see below).
 
 Top of post markdown file post.
+
 ```
 ---
 title: Project

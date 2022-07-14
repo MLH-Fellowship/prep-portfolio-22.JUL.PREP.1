@@ -4,27 +4,33 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     text-align: center;
-    height: 320px;
-    margin-bottom: 50px;
+    min-height: 60vh;
+    margin-bottom: 00px;
+
     h1 {
         font-size: 50px;
         font-weight: 700;
         color: white;
     }
-    
+
     img {
+        // border: 1px solid black;
+        object-fit: cover;
         border-radius: 50%;
-        max-width: 100%;
-        max-height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: inline;        
-        padding: 20px;
+        width: 13rem;
+        height: 13rem;
+        padding: 1rem;
+        margin: 1rem;
     }
-    
+
     .profile-picture {
         margin-bottom: 30px;
-        height: 200px;
+        // height: 200px;
     }
 }

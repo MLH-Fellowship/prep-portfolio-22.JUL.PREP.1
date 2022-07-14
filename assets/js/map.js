@@ -94,8 +94,8 @@ const fellows = [
         "img": "./assets/img/Karnik-Kanojia.png",
         "location": "Uttar Pradesh, India",
         "coordinates": [
-            26.92356,
-            80.57700
+            26.2363274,
+            81.2068466
         ]
     }
 ]
@@ -112,10 +112,10 @@ fellows.forEach(fellow => {
         iconUrl: fellow.img,
         iconSize: [50, 50],
         iconAnchor: [22, 94],
-        popupAnchor: [-3, -76],
+        popupAnchor: [4, -82],
         className: "marker-icon"
     });
 
     var marker = L.marker(fellow.coordinates, {icon: myIcon}).addTo(map);
-    marker.bindPopup(`<b>${fellow.name}</b><br>${fellow.location}`).openPopup();
+    marker.bindPopup(`<a href="#"><b>${fellow.name}</b></a><br>${fellow.location}`).openPopup();
 });

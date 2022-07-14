@@ -7,7 +7,7 @@
 # For other scenarios, a new PR will be opened if any images are compressed.
 name: Compress images
 on:
-  pull_request:
+  pull_request_target:
     paths:
       - "**.jpg"
       - "**.jpeg"

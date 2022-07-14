@@ -1,9 +1,14 @@
 .profile {
+    // background-color: #133667 !important;
+    background-image: url('/assets/img/header_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #133667 !important;
     text-align: center;
     min-height: 60vh;
     margin-bottom: 00px;

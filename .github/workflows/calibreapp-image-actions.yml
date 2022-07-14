@@ -1,3 +1,4 @@
+# Config for https://github.com/marketplace/actions/image-actions
 # Image Actions will run in the following scenarios:
 # - on Pull Requests containing images (not including forks)
 # - on pushing of images to `main` (for forks)

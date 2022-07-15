@@ -56,7 +56,9 @@
 - name: Dhroov Makwana
   img: Dhroov-Makwana.jpg
   location: Pune, India
+  page-name: dhroov
 
 - name: Archit Jain
   img: Archit-Jain.jpg
   location: India
+  page-name: archit

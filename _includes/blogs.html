@@ -3,9 +3,9 @@
 <div class="card-container" id="blogs">
     {% for blog in site.data.post %}
       {% if blog.page-name %}
-      <a href="/posts/{{blog.page-name }}">
+      <a href="/posts/{{blog.page-name }}"/>
         {% else %}
-        <a>
+        <a href="#"/>
         {% endif %}
             <div class="card blog-card">
                 <img class="card-img-top blog-img" src="assets/img/blog/bg.jpg" alt="Card image cap">

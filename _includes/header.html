@@ -1,38 +1,39 @@
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta property="og:title" content="Personal Portfolio">
-    <meta property="og:description"
-        content="My Personal Portfolio">
-    <meta property="og:image" content="./assets/img/social-link.jpg">
-    <meta property="og:url" content="{{ page.url }}">
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
-    <script src="https://jsxss.com/assets/xss.js"
-        crossorigin="anonymous"></script>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
-
-    <link lang='sass' rel="stylesheet" href="/assets/css/main.css">
-    <link rel='icon' href='/assets/img/favicon.ico' type='image/x-icon' />
-
-    <!-- Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" 
-        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="anonymous" />
-    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" 
-        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="anonymous"></script>
-    <title>{{ site.title }}</title>
-</head>
+<h2>Meet the Pod</h2>
+<div class="card-container">
+    {% for item in site.data.fellows %}
+        {% if item.page-name %}
+            <a href="/fellows/{{ item.page-name }}">
+        {% else %}
+            <a>
+        {% endif %}
+    <div class="card">
+        <div class="info">
+            <p class="title"> {{ item.name }}</p>
+            <p class="location"> {{ item.location }}</p>
+            <div class="socials">
+                <div class="social-icon">
+                    <a class="link" href= {{ item.github }}>
+                        <img src="./assets/img/social-icons/github-icon.svg" />
+                    </a>
+                </div>
+                <div class="social-icon">
+                    <a class="link" href= {{ item.twitter }}>
+                        <img src="./assets/img/social-icons/twitter-icon.svg" />
+                    </a>
+                </div>
+                <div class="social-icon">
+                    <a class="link" href= {{ item.linkedin }}>
+                        <img src="./assets/img/social-icons/linkedin-icon.svg" />
+                    </a>
+                </div>
+                <div class="social-icon">
+                    <a class="link" href= {{ item.resume }}>
+                        <img src="./assets/img/social-icons/resume-icon.svg" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+</a>
+{% endfor %}
+</div>

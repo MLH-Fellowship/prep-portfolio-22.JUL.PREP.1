@@ -36,8 +36,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const fellowsInfo = ${{ steps.yaml2json.outputs.data }}; # JQuery info of fellows
-            console.log(fellowsInfo);
+            const fellowsInfo = ${{ steps.yaml2json.outputs.data }};
             const contributor = fellowsInfo.filter((fellow) => {
               return fellow.github.split('/').pop() === context.payload.sender.login;
             })[0];
@@ -50,7 +49,6 @@ jobs:
                 contributor['issues'] += 1;
               }
             }
-            console.log(fellowsInfo);
             return fellowsInfo;
       - run: echo '${{steps.increment.outputs.result}}' > temp.json # Saving data in temp.json file for temporary use
       - run: tail temp.json # ?

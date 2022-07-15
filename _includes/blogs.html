@@ -1,0 +1,21 @@
+<h2 id ='blog-nav' class="section-title">Blog Section</h2>
+
+<div class="card-container" id="blogs">
+    {% for blog in site.data.post %}
+      {% if blog.page-name %}
+      <a href="/posts/{{blog.page-name }}">
+        {% else %}
+        <a>
+        {% endif %}
+            <div class="card blog-card">
+                <img class="card-img-top blog-img" src="assets/img/blog/bg.jpg" alt="Card image cap">
+                <div class="blog-card-body">
+                    <h2>{{ blog.title }}</h2>
+                    <h3>{{ blog.author }}</h3>
+                    <p class="blog-card-text">{{ blog.short-description }}</p>
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>
+</div>

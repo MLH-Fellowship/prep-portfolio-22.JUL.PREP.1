@@ -1,43 +1,62 @@
 - name: Akshita Gupta
   img: akshita-gupta.png
   location: Uttar Pradesh, India
+  page-name: akshita
 
 - name: Merouane Zouaid
   img: Merouane-Zouaid.jpeg
   location: Agadir, Morocco
+  page-name: merouane
 
 - name: Soumya Satheesan
   img: Soumya-Satheesan.jpg
   location: Victoria, Seychelles
+  page-name: soumya
 
 - name: Ain Fatima
   img: Ain-Fatima.jpeg
   location: Ranchi, India
+  page-name: ain
 
 - name: Rohit Patil
   img: Rohit-Patil.jpeg
-  location: Mumbai,India
+  location: Mumbai, India
+  page-name: rohit
 
 - name: Rakesh Potnuru
   img: Rakesh.jpg
   location: Andhra Pradesh, India
+  page-name: rakesh
 
 - name: Ish Kapoor
   img: Ish-Kapoor.jpg
   location: Delhi, India
+  page-name: ish
 
 - name: Mohd Arshad
   img: Mohd-Arshad.jpeg
   location: New Delhi, India
+  page-name: mohd
 
 - name: kuwar kapur
   img: kuwar-kapur.jpg
   location: Delhi,India
+  page-name: kuwar
 
 - name: Riya Singh
   img: Riya-Singh.jpg
   location: Varanasi, India
+  page-name: riya
 
 - name: Karnik Kanojia
   img: Karnik-Kanojia.png
   location: Uttar Pradesh, India
+  page-name: karnik
+
+- name: Dhroov Makwana
+  img: Dhroov-Makwana.jpg
+  location: Pune, India
+
+- name: Archit Jain
+  img: Archit-Jain.jpg
+  location: India

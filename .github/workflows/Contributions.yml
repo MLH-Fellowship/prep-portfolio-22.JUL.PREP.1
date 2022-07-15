@@ -38,7 +38,7 @@ jobs:
           script: |
             const fellowsInfo = ${{ steps.yaml2json.outputs.data }};
             const contributor = fellowsInfo.filter((fellow) => {
-              return fellow["Github"].split('/').pop(); === context.payload.sender.login;
+              return fellow["Github"].split('/').pop() === context.payload.sender.login;
             })[0];
             if(contributor){
               if(context.payload.commits) {

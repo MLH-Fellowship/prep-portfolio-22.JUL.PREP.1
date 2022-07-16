@@ -1,3 +1,4 @@
+---
   - 
     name: "Akshita Gupta"
     img: "akshita-gupta.png"
@@ -26,7 +27,7 @@
     name: "Soumya Satheesan"
     img: "Soumya-Satheesan.jpg"
     issues: 0
-    commits: 0
+    commits: 19
     reviews: 0
     location: "Victoria, Seychelles"
     page-name: "soumya"
@@ -154,3 +155,4 @@
     Twitter: "https://twitter.com/codingspirits"
     Github: "https://github.com/architjain11"
     Resume: "https://drive.google.com/file/d/1XnYnHvsI9LX3BwPyO0uATgEYRbvO6MFB/view?usp=sharing"
+

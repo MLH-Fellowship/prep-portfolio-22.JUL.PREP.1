@@ -1,0 +1,23 @@
+- title: Experiences we had in MLH 
+  author: Kuwar Kapur
+  background:  assets/img/blog/bg.jpg
+  short-description: "Experiences we had in MLH "
+  page-name:  Blog entry 1
+
+- title: Projects we made in MLH
+  author: Merouane Zouaid
+  background: assets/img/blog/bg.jpg 
+  short-description: "Projects we made in MLH"
+  page-name:  Blog entry 2
+
+- title: How can you apply for MLH Prep Program
+  author: Kuwar Kapur
+  background:  assets/img/blog/bg.jpg
+  short-description: "How can you apply for MLH Prep Program"
+  page-name:  Blog entry 3
+
+- title: What after MLH Prep Program
+  author: Merouane Zouaid
+  background: assets/img/blog/bg.jpg
+  short-description: "What after MLH Prep Program"
+  page-name: Blog entry 4

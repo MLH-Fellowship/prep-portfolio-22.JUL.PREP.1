@@ -3,8 +3,43 @@
         <a href="{{ '/' | relative_url }}">
             <div class="nav-logo">
                 <img src="./assets/img/mlh-prep.png" />
-            </div>
+               
         </a>
+
         
-    </div>
+        <ul class="nav-list" id = "navi-list">
+            <li><a href="#PodMembers">Meet the Pod ⚡ </a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Map">Map</a></li>
+            
+        </ul>
+
+        <a href="#" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        </div>
 </header>
+
+<script>
+  function myFunction() {
+    console.log("hello");
+    var x = document.getElementById("navi-list");
+    if (x.className === "nav-list") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav-list";
+    }
+  }
+</script>
+
+
+       
+
+        
+
+        
+        
+    
+
+
+

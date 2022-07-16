@@ -97,6 +97,24 @@ const fellows = [
             26.2363274,
             81.2068466
         ]
+    },
+    {
+        "name": "Dhroov Makwana",
+        "img": "./assets/img/Dhroov-Makwana.jpg",
+        "location": "Pune, India",
+        "coordinates": [
+            18.521428,
+            73.8544541
+        ]
+    },
+    {
+        "name": "Archit Jain",
+        "img": "./assets/img/Archit-Jain.jpg",
+        "location": "India",
+        "coordinates": [
+            22.3511148,
+            78.6677428
+        ]
     }
 ]
 

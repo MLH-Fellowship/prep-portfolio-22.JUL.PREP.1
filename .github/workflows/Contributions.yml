@@ -1,0 +1,67 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Contributions Counter
+
+# Controls when the workflow will run
+
+on:
+  pull_request_review:
+    types:
+      - submitted
+  push:
+    branches:    
+      - main
+  issues:
+    types:
+      - opened
+  workflow_dispatch: # https://github.com/marketplace/actions/workflow-dispatch-action
+#   schedule:
+#     - cron: "00 23 * * 0"
+
+jobs:
+  converter:
+    name: Run converter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 # https://github.com/marketplace/actions/checkout
+        # repository: ${{ github.repository }}
+      - uses: fabasoad/yaml-json-xml-converter-action@main # https://github.com/marketplace/actions/yaml-json-xml-converter-action
+        id: yaml2json
+        with:
+          path: './_data/fellows.yml'
+          from: 'yaml'
+          to: 'json'
+      - uses: actions/github-script@v6 # https://github.com/marketplace/actions/github-script
+        id: increment
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fellowsInfo = ${{ steps.yaml2json.outputs.data }};
+            const contributor = fellowsInfo.filter((fellow) => {
+              return fellow["Github"].split('/').pop() === context.payload.sender.login;
+            })[0];
+            if(contributor){
+              if(context.payload.commits) {
+                 contributor['commits'] += context.payload.commits.length;
+              } else if( context.payload.review ) {
+                contributor['reviews'] += 1;
+              } else {
+                contributor['issues'] += 1;
+              }
+            }
+            return fellowsInfo;
+      - run: echo '${{steps.increment.outputs.result}}' > temp.json # Saving data in temp.json file for temporary use
+      - run: tail temp.json # ?
+      - uses: fabasoad/yaml-json-xml-converter-action@main
+        id: json2yaml
+        with:
+          path: 'temp.json'
+          from: 'json'
+          to: 'yaml'
+      - run: echo '${{steps.json2yaml.outputs.data}}' > _data/fellows.yml # Put contributions data back to .yml file
+      - uses: EndBug/add-and-commit@v7 # https://github.com/marketplace/actions/add-commit
+        with:
+          cwd: ${{env.GITHUB_WORKSPACE}}
+          add: _data/fellows.yml # This workflow means git-add
+          author_name: 'Ish Kapoor & Mohammad Arshad' # ishkapoor2000 & mdarshad1000
+          branch: main

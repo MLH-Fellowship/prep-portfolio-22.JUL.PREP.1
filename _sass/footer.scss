@@ -7,6 +7,10 @@
         width: 100%;
         display: flex;
 
+        @media (max-width: 576px) {
+            flex-direction: column-reverse;
+        }
+
         &--links {
             display: flex;
             width: 100%;
@@ -14,6 +18,10 @@
             align-items: center;
             padding-top: 2rem;
             padding-bottom: 2rem;
+
+            @media (max-width: 576px) {
+                flex-direction: column;
+            }
 
             a {
                 color: white;

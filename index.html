@@ -18,6 +18,16 @@
     {% include map.html %}
 
     {% include footer.html %}
+    
+     {% include toggle.html %}
+
+    <script>
+        const theme = localStorage.getItem("mode");
+        if (theme !== null) {
+            document.body.setAttribute("theme", "dark");
+        }
+    </script>
+
 
 </body>
 

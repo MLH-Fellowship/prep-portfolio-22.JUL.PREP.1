@@ -1,0 +1,119 @@
+.y-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+#dark-theme-toggle {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    user-select: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+[theme="dark"] {
+    background-color: #1e1e29!important;
+
+    .initiallogo {
+        background-color: #2a2b3c !important;
+    }
+
+    .finallogo {
+        background-color: #1e1e29!important;
+    }
+}
+
+[theme="dark"] {
+
+    header,
+    .profile,
+    .banner {
+        background-color: #2a2b3c !important;
+    }
+
+    h1,
+    h2,
+    .control-label,
+    .title {
+        color: #cfcfd4 !important;
+    }
+
+    .card {
+        background-color: #2a2b3c !important;
+    }
+
+    .location {
+        color: #9396a5 !important;
+    }
+
+   .flip-card {
+        background-color: #2a2b3c !important;
+    }
+    .flip-card-back {
+        background-color: rgb(28, 33, 49);
+        color: white;
+    }
+    .flip-card-front {
+        background-color: rgb(28, 33, 49);
+        color: white;
+    }
+    .flip-card-inner {
+        background-color: rgb(28, 33, 49);
+        color: white;
+    }
+    .card-container{
+        background-color: rgb(28, 33, 49);
+        color: white;
+    }
+
+    .dates,
+    p {
+        color: #9396a5 !important;
+    }
+
+    .adaptive-background {
+        background-color: #121212;
+    }
+
+    .adaptive-background-reverse {
+        background-color: #f5f5f9;
+    }
+
+    .adaptive-text {
+        color: #f5f5f9;
+    }
+
+    .adaptive-text-reverse {
+        color: #1e1e29;
+    }
+
+    .adaptive-background-transparent {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .adaptive-shadow {
+        filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.3));
+    }
+
+    .social-icon {
+        filter: invert(1);
+    }
+
+    .adaptive-theme-color {
+        background-color: #b9d1f2;
+    }
+    
+    .footer{
+        &__content{
+        background-color: #2a2b3c;
+        }
+        &__copyright{
+         background-color: #2a2b3c;
+        }
+    }
+} 

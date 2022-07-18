@@ -107,4 +107,13 @@
     .adaptive-theme-color {
         background-color: #b9d1f2;
     }
+    
+    .footer{
+        &__content{
+        background-color: #2a2b3c;
+        }
+        &__copyright{
+         background-color: #2a2b3c;
+        }
+    }
 } 

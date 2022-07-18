@@ -13,6 +13,12 @@ h2 {
   font-size: large;
 }
 
+html {
+    height: -webkit-fill-available;
+    scroll-behavior: smooth;
+    scroll-margin: 10px;
+}
+
 body {
   background-color: #f5f5f9 !important;
   background-size: cover;

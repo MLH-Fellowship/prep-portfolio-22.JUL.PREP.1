@@ -3,6 +3,7 @@
 @import 'navbar';
 @import 'profile';
 @import 'page';
+@import 'footer';
 @import 'map';
 
 @import 'darkmode';
@@ -53,10 +54,6 @@
   .hidden {
     opacity: 0;
 }
-
-
-
-
 
 @media only screen and (max-width: 1500px) {
   .card-container {

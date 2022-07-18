@@ -66,6 +66,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  arm64-darwin-21
   universal-darwin-20
   x64-mingw-ucrt
   x86_64-linux

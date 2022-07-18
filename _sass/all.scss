@@ -3,6 +3,7 @@
 @import 'navbar';
 @import 'profile';
 @import 'page';
+@import 'footer';
 @import 'map';
 @import 'blog';
 
@@ -12,10 +13,6 @@
     grid-template-columns: repeat(4, 1fr);
     font-family: "Open Sans", sans-serif;
 }
-
-
-
-
 
 @media only screen and (max-width: 1500px) {
   .card-container {

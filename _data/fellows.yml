@@ -27,7 +27,7 @@
     name: "Soumya Satheesan"
     img: "Soumya-Satheesan.jpg"
     issues: 0
-    commits: 0
+    commits: 32
     reviews: 0
     location: "Victoria, Seychelles"
     page-name: "soumya"
@@ -138,6 +138,7 @@
     commits: 0
     reviews: 0
     location: "Pune, India"
+    page-name: "dhroov"
     Linkedin: "https://www.linkedin.com/in/dhroov-makwana-84099a208/"
     Twitter: "https://twitter.com/dhroovm"
     Github: "https://github.com/pabloescoder"
@@ -149,6 +150,7 @@
     commits: 0
     reviews: 0
     location: "India"
+    page-name: "archit"
     Linkedin: "https://www.linkedin.com/in/jainarchit11/"
     Twitter: "https://twitter.com/codingspirits"
     Github: "https://github.com/architjain11"

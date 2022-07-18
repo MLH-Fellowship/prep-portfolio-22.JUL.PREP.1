@@ -97,6 +97,24 @@ const fellows = [
             26.2363274,
             81.2068466
         ]
+    },
+    {
+        "name": "Dhroov Makwana",
+        "img": "./assets/img/Dhroov-Makwana.jpg",
+        "location": "Pune, India",
+        "coordinates": [
+            18.521428,
+            73.8544541
+        ]
+    },
+    {
+        "name": "Archit Jain",
+        "img": "./assets/img/Archit-Jain.jpg",
+        "location": "India",
+        "coordinates": [
+            22.3511148,
+            78.6677428
+        ]
     }
 ]
 
@@ -104,7 +122,8 @@ var map = L.map('map').setView([40, -86], 5);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
-    attribution: '© OpenStreetMap'
+    attribution: '© OpenStreetMap',
+    className: 'map-tiles'
 }).addTo(map);
 
 fellows.forEach(fellow => {
